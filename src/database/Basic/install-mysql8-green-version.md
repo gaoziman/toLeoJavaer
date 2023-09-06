@@ -1,5 +1,5 @@
 ---
-title: MySQ L8.0绿色版安装
+title: MySQL8绿色版安装
 icon: circle-info
 order: 1
 category:
