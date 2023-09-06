@@ -2,29 +2,69 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
   {
-    text: "指南",
-    icon: "lightbulb",
-    prefix: "/guide/",
+    text: "面试准备",
+    icon: "book",
+    link: "#",
+  },
+  {
+    text: "Java",
+    icon: "coffee",
+    link: "#",
+  },
+  {
+    text: "数据库",
+    icon: "database",
+    prefix: "/database/",
     children: [
       {
-        text: "Bar",
-        icon: "lightbulb",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "ellipsis", link: "" }],
+        text: "Basic",
+        icon: "database",
+        prefix: "Basic/",
+        children: [
+            "install-mysql8-green-version",
+            "database-Principles-and-Applications",
+        ],
       },
       {
-        text: "Foo",
-        icon: "lightbulb",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "" }],
+        text: "Advanced",
+        icon: "database",
+        prefix: "Advanced/",
+        children: [
+          "reasons-for-slow-mysql-queries",
+        ],
       },
     ],
   },
   {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
+    text: "计算机基础",
+    icon: "computer",
+    link: "#",
+  },
+  {
+    text: "开发工具",
+    icon: "tools",
+    link: "#",
+  },
+
+  {
+    text: "常用框架",
+    icon: "paper-plane",
+    link: "#",
+  },
+  {
+    text: "微服务",
+    icon: "leaf",
+    link: "#",
+  },
+  {
+    text: "分布式",
+    icon: "sitemap",
+    link: "#",
+  },
+  {
+    text: "关于我",
+    icon: "user-alt",
+    link: "#",
   },
 ]);

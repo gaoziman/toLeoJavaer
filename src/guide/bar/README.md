@@ -3,11 +3,7 @@ title: Bar 功能
 icon: lightbulb
 ---
 
-## 介绍
-
-我们支持 bar 功能，...
-
 ## 详情
 
-- [baz](baz.md)
-- ...
+- [Java开发环境的搭建](Java开发环境的搭建.md)
+- [Java基础语法](Java基础语法.md)

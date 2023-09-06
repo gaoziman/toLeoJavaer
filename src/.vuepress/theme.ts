@@ -12,9 +12,9 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "/logo.svg",
+  logo: "/logo.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "gaoziman/toLeoJavaer",
 
   docsDir: "src",
 
@@ -24,7 +24,9 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "默认页脚",
+  footer: '<a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank">粤ICP备2022005190号-2</a>',
+
+  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   displayFooter: true,
 
@@ -40,6 +42,9 @@ export default hopeTheme({
   },
 
   plugins: {
+
+
+
     // You should generate and use your own comment service
     comment: {
       provider: "Giscus",
