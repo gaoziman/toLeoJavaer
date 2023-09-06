@@ -2,15 +2,26 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  {
-    text: "面试准备",
-    icon: "book",
-    link: "#",
-  },
+  // {
+  //   text: "面试准备",
+  //   icon: "book",
+  //   link: "#",
+  // },
   {
     text: "Java",
     icon: "coffee",
-    link: "#",
+    prefix: "/Java/",
+    children: [
+      {
+        text: "基础",
+        icon: "database",
+        prefix: "Basic/",
+        children: [
+          "java-basic01" ,
+          "java-basic02" ,
+        ],
+      },
+    ],
   },
   {
     text: "数据库",
@@ -106,15 +117,28 @@ export default navbar([
   {
     text: "微服务",
     icon: "leaf",
-    link: "#",
+    prefix: "/service/",
+    children: [
+      {
+        text: "重要知识点",
+        icon: "star",
+        prefix: "star/",
+        children: [
+          "understanding-springcloud-microservices",
+          "understanding-core-components-springcloud",
+          "ribbon-and-Nacos-Service-registry",
+          "remote-call-to-openFeign-integration",
+        ],
+      },
+    ],
   },
+  // {
+  //   text: "分布式",
+  //   icon: "sitemap",
+  //   link: "#",
+  // },
   {
-    text: "分布式",
-    icon: "sitemap",
-    link: "#",
-  },
-  {
-    text: "关于我",
+    text: "网站相关",
     icon: "user-alt",
     link: "#",
   },

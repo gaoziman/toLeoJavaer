@@ -253,6 +253,8 @@ export default sidebar({
               children: [
                 "",
                 "redis7-getting-started-overview",
+                "redis7-installation-configuration",
+                "redis7-top-ten-data-types",
               ],
             },
             {

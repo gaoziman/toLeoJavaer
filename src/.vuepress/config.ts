@@ -2,6 +2,7 @@ import { defineUserConfig } from "vuepress";
 // @ts-ignore
 import docsearchPlugin from "@vuepress/plugin-docsearch";
 import theme from "./theme.js";
+import {searchPlugin} from "@vuepress/plugin-search";
 
 export default defineUserConfig({
   base: "/",
@@ -48,13 +49,27 @@ export default defineUserConfig({
       `var _hmt = _hmt || [];
         (function() {
           var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?5dd2e8c97962d57b7b8fea1737c01743";
+          hm.src = "https://hm.baidu.com/hm.js?7f3ff39fbb72aabacbcc5072e15b827e";
           var s = document.getElementsByTagName("script")[0]; 
           s.parentNode.insertBefore(hm, s);
         })();`,
     ],
   ],
   plugins: [
+    // searchPlugin({
+    //   // https://v2.vuepress.vuejs.org/zh/reference/plugin/search.html
+    //   // 排除首页
+    //   isSearchable: (page) => page.path !== "/",
+    //   maxSuggestions: 10,
+    //   hotKeys: ["s", "/"],
+    //   // 用于在页面的搜索索引中添加额外字段
+    //   getExtraFields: () => [],
+    //   locales: {
+    //     "/": {
+    //       placeholder: "搜索",
+    //     },
+    //   },
+    // }),
     docsearchPlugin({
       appId: "LDBQGQC8Q9",
       apiKey: "5c3a7145aeba231c3b85b742d24fc24f",
@@ -105,6 +120,9 @@ export default defineUserConfig({
     }),
   ],
 
+  pagePatterns: ["**/*.md", "!**/*.snippet.md", "!.vuepress", "!node_modules"],
+
+  shouldPrefetch: false,
   // Enable it with pwa
   // shouldPrefetch: false,
 });

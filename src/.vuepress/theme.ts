@@ -26,8 +26,17 @@ export default hopeTheme({
 
   footer: '<a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank">粤ICP备2022005190号-2</a>',
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  // pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
+  pageInfo: [
+    "Author",
+    "Category",
+    "Tag",
+    "Date",
+    "Original",
+    "Word",
+    "ReadingTime",
+  ],
   displayFooter: true,
 
   encrypt: {
@@ -36,15 +45,25 @@ export default hopeTheme({
     },
   },
 
+
   // page meta
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
   },
 
+  // blog: {
+  //   intro: "/about-the-author/",
+  //   sidebarDisplay: "mobile",
+  //   medias: {
+  //     Zhihu: "https://www.zhihu.com/people/javaguide",
+  //     Github: "https://github.com/Snailclimb",
+  //     Gitee: "https://gitee.com/SnailClimb",
+  //   },
+  // },
+
+
   plugins: {
-
-
-
+    // blog: true,
     // You should generate and use your own comment service
     comment: {
       provider: "Giscus",
@@ -52,6 +71,14 @@ export default hopeTheme({
       repoId: "R_kgDOG_Pt2A",
       category: "Announcements",
       categoryId: "DIC_kwDOG_Pt2M4COD69",
+    },
+    copyright: {
+      author: "LeoJavaer(toleojavaer.cn)",
+      license: "MIT",
+      triggerLength: 100,
+      maxLength: 700,
+      canonical: "https://toleojavaer.netlify.app/",
+      global:true
     },
 
     // All features are enabled for demo, only preserve features you need here
