@@ -1,5 +1,5 @@
 ---
-title: Ribbon和Nacos服务注册中心
+title: Ribbon和Nacos注册中心
 icon: circle-info
 order: 3
 category:
