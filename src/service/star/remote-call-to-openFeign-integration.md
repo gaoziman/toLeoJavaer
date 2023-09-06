@@ -1,5 +1,5 @@
 ---
-title: 微服务远程调用openFeign整合
+title: 远程调用openFeign整合
 icon: circle-info
 order: 4
 category:

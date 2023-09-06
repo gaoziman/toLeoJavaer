@@ -1,5 +1,5 @@
 ---
-title: Spring是如何解决循环依赖的
+title: Spring如何解决循环依赖的
 icon: circle-info
 order: 4
 category:
