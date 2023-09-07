@@ -1,6 +1,8 @@
 import { sidebar } from "vuepress-theme-hope";
+import {aboutTheAuthor} from "./about-the-author";
 
 export default sidebar({
+  "/about-the-author/": aboutTheAuthor,
   "/": [
     {
       text: "必看",
@@ -71,7 +73,7 @@ export default sidebar({
       children: [
         {
           text: "基础",
-          icon: "closed-captioning",
+          icon: "fill",
           collapsible: true,
           prefix: "Basic/",
           children: [
@@ -82,7 +84,7 @@ export default sidebar({
         },
         {
           text: "高级",
-          icon: "audio-description",
+          icon: "fill-drip",
           collapsible: true,
           prefix: "Advanced/",
           children: [
@@ -212,7 +214,7 @@ export default sidebar({
     },
     {
       text: "常用框架",
-      icon: "paper-plane",
+      icon: "layer-group",
       prefix: "framework/",
       collapsible: true,
       // children: "structure",
@@ -234,7 +236,7 @@ export default sidebar({
     },
     {
       text: "中间件",
-      icon: "splotch",
+      icon: "rocket",
       prefix: "middleware/",
       collapsible: true,
       // children: "structure",
@@ -302,14 +304,14 @@ export default sidebar({
     },
     {
       text: "项目",
-      icon: "fish",
+      icon: "laptop-code",
       prefix: "project/",
       collapsible: true,
       children: "structure",
     },
     {
       text: "前端技术",
-      icon: "thumbtack",
+      icon: "palette",
       prefix: "front/",
       collapsible: true,
       children: "structure",

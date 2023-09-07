@@ -16,7 +16,14 @@ export default hopeTheme({
 
   repo: "gaoziman/toLeoJavaer",
 
+  repoLabel: "GitHub",
+  docsBranch: "master",
+
   docsDir: "src",
+
+  breadcrumb: false,
+
+
 
   // navbar
   navbar,
@@ -27,7 +34,6 @@ export default hopeTheme({
   footer: '<a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank">粤ICP备2022005190号-2</a>',
 
   // pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
-
 
   pageInfo: [
     "Author",
@@ -46,10 +52,13 @@ export default hopeTheme({
     },
   },
 
-
+  // hotReload: true,
+  lastUpdated: true,
+  contributors: true,
   // page meta
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
+
   },
 
   // blog: {
@@ -64,20 +73,19 @@ export default hopeTheme({
 
 
   plugins: {
-    // blog: true,
     // You should generate and use your own comment service
     comment: {
-      provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      // provider: "Twikoo",
+      // envId: "https://twikoo.manamn.space",
+      // repo: "vuepress-theme-hope/giscus-discussions",
+      // repoId: "R_kgDOG_Pt2A",
+      // category: "Announcements",
+      // categoryId: "DIC_kwDOG_Pt2M4COD69",
     },
     copyright: {
       author: "LeoJavaer(toleojavaer.cn)",
       license: "MIT",
-      triggerLength: 100,
-      maxLength: 700,
+      triggerWords:100,
       canonical: "https://toleojavaer.netlify.app/",
       global:true
     },

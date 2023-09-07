@@ -54,7 +54,7 @@ export default navbar([
   },
   {
     text: "开发工具",
-    icon: "tools",
+    icon: "wrench",
     prefix: "/tools/",
     children: [
       {
@@ -98,7 +98,7 @@ export default navbar([
   },
   {
     text: "常用框架",
-    icon: "paper-plane",
+    icon: "layer-group",
     prefix: "/framework/",
     children: [
       {
@@ -140,6 +140,17 @@ export default navbar([
   {
     text: "网站相关",
     icon: "user-alt",
-    link: "#",
+    children: [
+      {
+        text: "关于作者",
+        icon: "user-alt",
+        link: "/about-the-author/"
+      },
+      // {
+      //   text: "更新历史",
+      //   icon: "history",
+      //   link: "/timeline/",
+      // },
+    ],
   },
 ]);
