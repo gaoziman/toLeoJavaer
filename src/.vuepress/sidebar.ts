@@ -3,6 +3,7 @@ import {aboutTheAuthor} from "./about-the-author";
 
 export default sidebar({
   "/about-the-author/": aboutTheAuthor,
+
   "/": [
     {
       text: "必看",
