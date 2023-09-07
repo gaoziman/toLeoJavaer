@@ -3,6 +3,7 @@ import { defineUserConfig } from "vuepress";
 import docsearchPlugin from "@vuepress/plugin-docsearch";
 import theme from "./theme.js";
 import {searchPlugin} from "@vuepress/plugin-search";
+import {blog} from "vuepress-theme-hope";
 
 export default defineUserConfig({
   base: "/",
