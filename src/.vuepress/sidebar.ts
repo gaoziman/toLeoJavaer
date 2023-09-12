@@ -10,13 +10,16 @@ export default sidebar({
       prefix: "star/",
       collapsible: true,
       children: "structure",
+
     },
     {
       text: "面试准备",
       icon: "book",
       prefix: "interview/",
       collapsible: true,
-      children: "structure",
+      children: [
+          "interview-question-organization",
+      ],
     },
     {
       text: "每天重要知识点",
