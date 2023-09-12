@@ -232,7 +232,6 @@ export default sidebar({
       icon: "layer-group",
       prefix: "framework/",
       collapsible: true,
-      // children: "structure",
       children: [
         {
           text: "MyBatis",
