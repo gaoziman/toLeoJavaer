@@ -50,7 +50,17 @@ export default navbar([
   {
     text: "计算机基础",
     icon: "computer",
-    link: "#",
+    prefix: "/computer/",
+    children: [
+      {
+        text: "计算机组成原理",
+        icon: "tachometer-alt",
+        prefix: "computer-composition-principle/",
+        children: [
+          "introduction-to-computer-systems-programmers-must-know-and-know" ,
+        ],
+      },
+    ],
   },
   {
     text: "开发工具",
@@ -92,6 +102,8 @@ export default navbar([
         children: [
           "java-connection-sqlServer-error",
           "redis-reported-an-error-in-Docker-for-online-issues",
+          "record-idea-illegal-character-ufeff-and-report-an-error-once",
+          "record-Docker-and-redis-conflict-once",
         ],
       },
     ],
@@ -102,6 +114,14 @@ export default navbar([
     prefix: "/framework/",
     children: [
       {
+        text: "MyBatis",
+        icon: "glasses",
+        prefix: "MyBatis/",
+        children: [
+          "myBatisplus-one-pass",
+        ],
+      },
+      {
         text: "Spring",
         icon: "leaf",
         prefix: "Spring/",
@@ -110,6 +130,24 @@ export default navbar([
           "spring5-aop",
           "Spring5-factory-senior ",
           "Spring5-transaction-processing",
+        ],
+      },
+      "ssm-integration-complete-process",
+    ],
+  },
+  {
+    text: "中间件",
+    icon: "rocket",
+    prefix: "/middleware/",
+    children: [
+      {
+        text: "Redis",
+        icon: "glass-whiskey",
+        prefix: "Redis/basic-chapter/",
+        children: [
+          "redis7-getting-started-overview",
+          "redis7-installation-configuration",
+          "redis7-top-ten-data-types",
         ],
       },
     ],

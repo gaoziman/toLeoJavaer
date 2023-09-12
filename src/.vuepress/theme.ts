@@ -3,11 +3,11 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://toleojavaer.netlify.app",
 
   author: {
     name: "Leo",
-    url: "https://mister-hope.com",
+    url: "https://toleojavaer.netlify.app/",
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -20,6 +20,7 @@ export default hopeTheme({
   docsBranch: "master",
 
   docsDir: "src",
+
 
   breadcrumb: false,
 
@@ -61,33 +62,27 @@ export default hopeTheme({
 
   },
 
-  // blog: {
-  //   intro: "/about-the-author/",
-  //   sidebarDisplay: "mobile",
-  //   medias: {
-  //     Zhihu: "https://www.zhihu.com/people/javaguide",
-  //     Github: "https://github.com/Snailclimb",
-  //     Gitee: "https://gitee.com/SnailClimb",
-  //   },
-  // },
+
+
 
 
   plugins: {
+    home:true,
     // You should generate and use your own comment service
-    comment: {
-
-
+    // comment: {
       // provider: "Twikoo",
       // envId: "https://twikoo.manamn.space",
       // repo: "vuepress-theme-hope/giscus-discussions",
       // repoId: "R_kgDOG_Pt2A",
       // category: "Announcements",
       // categoryId: "DIC_kwDOG_Pt2M4COD69",
-    },
+    // },
+    // copyright: true,
     copyright: {
       author: "LeoJavaer(toleojavaer.cn)",
       license: "MIT",
-      triggerWords:100,
+      triggerLength: 100,
+      maxLength:100,
       canonical: "https://toleojavaer.netlify.app/",
       global:true
     },

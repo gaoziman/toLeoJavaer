@@ -161,7 +161,20 @@ export default sidebar({
       icon: "computer",
       prefix: "computer/",
       collapsible: true,
-      children: "structure",
+      // children: "structure",
+      children:[
+        {
+          text: "计算机组成原理",
+          icon: "laptop",
+          collapsible: true,
+          // icon: "tachometer-alt",
+          prefix: "computer-composition-principle/",
+          children: [
+            "introduction-to-computer-systems-programmers-must-know-and-know",
+          ],
+        },
+
+      ]
     },
     {
       text: "开发工具",
@@ -208,6 +221,8 @@ export default sidebar({
           children: [
             "java-connection-sqlServer-error",
             "redis-reported-an-error-in-Docker-for-online-issues",
+            "record-idea-illegal-character-ufeff-and-report-an-error-once",
+            "record-Docker-and-redis-conflict-once",
           ],
         },
       ],
@@ -220,18 +235,27 @@ export default sidebar({
       // children: "structure",
       children: [
         {
+          text: "MyBatis",
+          icon: "glasses",
+          collapsible: true,
+          prefix: "MyBatis/",
+          children: [
+            "myBatisplus-one-pass",
+          ],
+        },
+        {
           text: "Spring",
           icon: "leaf",
           collapsible: true,
           prefix: "Spring/",
           children: [
-            "",
             "spring5-ioc",
             "spring5-aop",
             "Spring5-factory-senior ",
             "Spring5-transaction-processing",
           ],
         },
+        "ssm-integration-complete-process",
       ],
     },
     {
