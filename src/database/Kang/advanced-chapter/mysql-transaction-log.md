@@ -14,6 +14,12 @@ breadcrumb: false
 
 
 
+::: tip  友情提示
+**转载须知**: 以下所有文章整理于B站宋红康老师的《MySQL数据库入门到大牛》。[MySQL](https://www.bilibili.com/video/BV1iq4y1u7vj?p=1&vd_source=cea816a08805c218ac4390ae9b61ae31)
+:::
+
+
+
 事务有4种特性：原子性、一致性、隔离性和持久性。那么事务的四种特性到底是基于什么机制实现呢？
 
 * 事务的隔离性由 `锁机制` 实现。

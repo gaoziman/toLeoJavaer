@@ -13,6 +13,11 @@ breadcrumb: false
 ---
 
 
+::: tip  友情提示
+**转载须知**: 以下所有文章整理于B站宋红康老师的《MySQL数据库入门到大牛》。[MySQL](https://www.bilibili.com/video/BV1iq4y1u7vj?p=1&vd_source=cea816a08805c218ac4390ae9b61ae31)
+:::
+
+
 都有哪些维度可以进行数据库调优？简言之：
 
 * 索引失效、没有充分利用到索引——建立索引
