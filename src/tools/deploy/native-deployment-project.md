@@ -1,7 +1,7 @@
 ---
-title: 原生部署前后端分离项目
+title: 宝塔部署前后端分离项目
 icon: circle-info
-order: 2
+order: 3
 category:
   - 项目部署
 tag:

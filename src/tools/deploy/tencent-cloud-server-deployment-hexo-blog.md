@@ -1,7 +1,7 @@
 ---
 title: 腾讯云服务器部署Hexo博客
 icon: circle-info
-order: 3
+order: 4
 category:
   - 项目部署
 tag:
