@@ -1,3 +1,4 @@
+// @ts-ignore
 import { sidebar } from "vuepress-theme-hope";
 import {aboutTheAuthor} from "./about-the-author";
 
@@ -147,7 +148,7 @@ export default sidebar({
                 "database-design-specifications",
                 "other-database-tuning-strategies",
                 "transaction-basics",
-                "other-database-logs",
+                "mysql-transaction-log",
                 "lock",
                 "multi-version-concurrency-control",
                 "other-database-logs",
@@ -211,8 +212,9 @@ export default sidebar({
           collapsible: true,
           prefix: "deploy/",
           children: [
-            "native-deployment-project",
+            "let-me-introduce-you-to-cloud-servers-from",
             "docker-deployment-project",
+            "native-deployment-project",
             "tencent-cloud-server-deployment-hexo-blog",
           ],
         },
@@ -236,6 +238,15 @@ export default sidebar({
       prefix: "framework/",
       collapsible: true,
       children: [
+        // {
+        //   text: "SpringBoot",
+        //   icon: "chart-bar",
+        //   collapsible: true,
+        //   prefix: "SpringBoot/",
+        //   children: [
+        //     "springboot-integration-thymeleaf",
+        //   ],
+        // },
         {
           text: "MyBatis",
           icon: "glasses",
@@ -283,6 +294,7 @@ export default sidebar({
                 "redis7-getting-started-overview",
                 "redis7-installation-configuration",
                 "redis7-top-ten-data-types",
+                "redis7-persistence",
               ],
             },
             {
@@ -317,6 +329,7 @@ export default sidebar({
             "understanding-core-components-springcloud",
             "ribbon-and-Nacos-Service-registry",
             "remote-call-to-openFeign-integration",
+            "micro-service-integration-gateway",
           ],
         },
       ],

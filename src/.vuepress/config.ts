@@ -9,8 +9,8 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "Leo知识库",
-  description: "Leo知识库的文档演示",
+  title: "ToLeoJavaer",
+  description: "Leo知识库",
 
   theme,
   head: [

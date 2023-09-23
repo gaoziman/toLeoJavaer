@@ -1,3 +1,4 @@
+// @ts-ignore
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
@@ -90,8 +91,9 @@ export default navbar([
         icon: "plug",
         prefix: "deploy/",
         children: [
-          "native-deployment-project",
+          "let-me-introduce-you-to-cloud-servers-from",
           "docker-deployment-project",
+          "native-deployment-project",
           "tencent-cloud-server-deployment-hexo-blog",
         ],
       },
@@ -113,6 +115,14 @@ export default navbar([
     icon: "layer-group",
     prefix: "/framework/",
     children: [
+      // {
+      //   text: "SpringBoot",
+      //   icon: "chart-bar",
+      //   prefix: "SpringBoot/",
+      //   children: [
+      //     "springboot-integration-thymeleaf",
+      //   ],
+      // },
       {
         text: "MyBatis",
         icon: "glasses",
@@ -148,6 +158,7 @@ export default navbar([
           "redis7-getting-started-overview",
           "redis7-installation-configuration",
           "redis7-top-ten-data-types",
+          "redis7-persistence",
         ],
       },
     ],
@@ -166,6 +177,7 @@ export default navbar([
           "understanding-core-components-springcloud",
           "ribbon-and-Nacos-Service-registry",
           "remote-call-to-openFeign-integration",
+          "micro-service-integration-gateway",
         ],
       },
     ],

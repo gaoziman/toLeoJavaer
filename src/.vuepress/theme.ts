@@ -24,6 +24,7 @@ export default hopeTheme({
 
   breadcrumb: false,
 
+  // themeColor: "#46bd87",
 
 
   // navbar
@@ -32,7 +33,7 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: '<a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank">粤ICP备2022005190号-2</a>',
+  footer: '<a href="http://beian.miit.gov.cn/" target="_blank">粤ICP备2022005190号-2</a>',
 
   // pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
