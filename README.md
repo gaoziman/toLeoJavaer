@@ -51,7 +51,7 @@
 
 ### 图床
 
-- [Typora+PicGo搭建博客图床](./tools/System/Typora+PicGo+Alibaba-Cloud-OSS-Build-Bed.md)
+- [Typora+PicGo搭建博客图床](https://github.com/gaoziman/toLeoJavaer/edit/master/src/tools/System/Typora+PicGo+Alibaba-Cloud-OSS-Build-Bed.md)
 
 
 ### 部署相关
