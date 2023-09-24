@@ -5,6 +5,7 @@ import theme from "./theme.js";
 import {searchPlugin} from "@vuepress/plugin-search";
 
 
+// @ts-ignore
 export default defineUserConfig({
   base: "/",
 

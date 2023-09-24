@@ -50,7 +50,7 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"],
+      "/database/Kang/": ["123456"],
     },
   },
 

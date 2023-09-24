@@ -1,13 +1,8 @@
----
-icon: book
-title: ToLeoJavaer
----
+## 友情说明
 
-::: info   友情提示
 - **使用说明** : 目前的想法是总结一下自己的整个Java学习知识体系，有利于自己随时翻阅以及复习，如果Leo的内容对各位有帮助的话那就更好了。
-- **求个Star**: 如果觉得 ToLeoJavaer 的内容对你有帮助的话，还请点个免费的 Star，这是对我最大的鼓励，感谢各位一起同行，共勉！传送门：[GitHub](https://github.com/gaoziman/toLeoJavaer) 
+- **求个Star**: 如果觉得 ToLeoJavaer 的内容对你有帮助的话，还请点个免费的 Star，这是对我最大的鼓励，感谢各位一起同行，共勉！传送门：[GitHub](https://github.com/gaoziman/toLeoJavaer)
 - **转载须知**: 以下所有文章如非文首说明为转载皆为 Leo 原创，转载请在文首注明出处。
-:::
 
 <div align="center">
 
@@ -26,7 +21,7 @@ title: ToLeoJavaer
 
 [//]: # (![issues]&#40;https://img.shields.io/github/issues/Snailclimb/JavaGuide&#41;)
 
-[GitHub](https://github.com/gaoziman/toLeoJavaer) 
+[GitHub](https://github.com/gaoziman/toLeoJavaer)
 
 [//]: # (| [Gitee]&#40;https://gitee.com/SnailClimb/JavaGuide&#41;)
 
