@@ -35,7 +35,7 @@
 
 **重要知识点详解**：
 
-- [Java8新特性](./Java/star/new-features-in-java8.md)
+- [Java8新特性](https://github.com/gaoziman/toLeoJavaer/edit/master/src/Java/star/new-features-in-java8.md)
 
 
 
@@ -45,7 +45,7 @@
 
 ### Maven
 
-- [Maven安装以及核心概念](./tools/detailed-maven-installation-and-configuration.md)
+- [Maven安装以及核心概念](https://github.com/gaoziman/toLeoJavaer/edit/master/src/tools/System/detailed-maven-installation-and-configuration.md)
 
 
 
@@ -56,9 +56,9 @@
 
 ### 部署相关
 
-- [华为云部署前后端分离项目](./tools/deploy/docker-deployment-project.md)
-- [宝塔部署前后端分离项目](./tools/deploy/native-deployment-project.md)
-- [腾讯云服务器部署Hexo博客](./tools/deploy/tencent-cloud-server-deployment-hexo-blog.md)
+- [华为云部署前后端分离项目](https://github.com/gaoziman/toLeoJavaer/edit/master/src/tools/deploy/docker-deployment-project.md)
+- [宝塔部署前后端分离项目](https://github.com/gaoziman/toLeoJavaer/edit/master/src/tools/deploy/native-deployment-project.md)
+- [腾讯云服务器部署Hexo博客](https://github.com/gaoziman/toLeoJavaer/edit/master/src/tools/deploy/tencent-cloud-server-deployment-hexo-blog.md)
 
 
 
@@ -72,10 +72,10 @@
 
 **重要知识点详解**：
 
-- [Spring5 IOC编程](./framework/Spring/Spring5-ioc.md)
-- [Spring5 AOP编程](./framework/Spring/Spring5-aop.md)
+- [Spring5 IOC编程](https://github.com/gaoziman/toLeoJavaer/edit/master/src/framework/Spring/spring5-ioc.md)
+- [Spring5 AOP编程](https://github.com/gaoziman/toLeoJavaer/edit/master/src/framework/Spring/Spring5-aop.md)
 - [Spring5 工厂高级特性](./framework/Spring/Spring5-factory-senior.md)
-- [Spring5 事务处理详解](./framework/Spring/Spring5-transaction-processing.md)
+- [Spring5 事务处理详解](https://github.com/gaoziman/toLeoJavaer/edit/master/src/framework/Spring/Spring5-transaction-processing.md)
 
 
 
