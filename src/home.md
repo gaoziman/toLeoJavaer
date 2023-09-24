@@ -50,7 +50,7 @@ title: ToLeoJavaer
 
 ### Maven
 
-- [Maven安装以及核心概念](./tools/detailed-maven-installation-and-configuration.md)
+- [Maven安装以及核心概念](./tools/System/detailed-maven-installation-and-configuration.md)
 
 
 
@@ -80,7 +80,6 @@ title: ToLeoJavaer
 - [Spring5 IOC编程](./framework/Spring/Spring5-ioc.md)
 - [Spring5 AOP编程](./framework/Spring/Spring5-aop.md)
 - [Spring5 工厂高级特性](./framework/Spring/Spring5-factory-senior.md)
-- [Spring5 事务处理详解](./framework/Spring/Spring5-transaction-processing.md)
 
 
 

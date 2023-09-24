@@ -264,8 +264,7 @@ export default sidebar({
           children: [
             "spring5-ioc",
             "spring5-aop",
-            "Spring5-factory-senior ",
-            "Spring5-transaction-processing",
+            "Spring5-factory-senior",
           ],
         },
         "ssm-integration-complete-process",
