@@ -74,7 +74,7 @@
 
 - [Spring5 IOC编程](https://github.com/gaoziman/toLeoJavaer/edit/master/src/framework/Spring/spring5-ioc.md)
 - [Spring5 AOP编程](https://github.com/gaoziman/toLeoJavaer/edit/master/src/framework/Spring/Spring5-aop.md)
-- [Spring5 工厂高级特性](./framework/Spring/Spring5-factory-senior.md)
+- [Spring5 工厂高级特性](https://github.com/gaoziman/toLeoJavaer/edit/master/src/framework/Spring/Spring5-factory-senior%20.md)
 - [Spring5 事务处理详解](https://github.com/gaoziman/toLeoJavaer/edit/master/src/framework/Spring/Spring5-transaction-processing.md)
 
 
