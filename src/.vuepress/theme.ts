@@ -23,9 +23,19 @@ export default hopeTheme({
 
 
   breadcrumb: false,
+  // 用户可以自定义的多主题色
+  themeColor: {
+    yellow: "#FEC201",
+    pink: "#EF699F",
+    purple: "#684CCE",
+    orange: "#FF8C3D",
+  },
+  // 暗黑模式切换-在深色模式和浅色模式中切换
+  darkmode: "toggle",
 
-  // themeColor: "#46bd87",
 
+  // 全屏按钮
+  fullscreen: true,
 
   // navbar
   navbar,
@@ -68,7 +78,15 @@ export default hopeTheme({
 
 
   plugins: {
-    home:true,
+    // 代码复制功能-vuepress-plugin-copy-code2
+    copyCode: {
+      // 在移动端也可以实现复制代码
+      showInMobile: true,
+      // 代码复制成功提示消息的时间-ms
+      duration: 3000,
+      // 纯净模式
+      pure: false,
+    },
     // You should generate and use your own comment service
     // comment: {
       // provider: "Twikoo",
