@@ -276,7 +276,7 @@ yum -y install docker-ce
 
 
 
-**docker-ce为社区免费版本。稍等片刻，docker即可安装成功。 **
+**docker-ce为社区免费版本。稍等片刻，docker即可安装成功。**
 
 
 
