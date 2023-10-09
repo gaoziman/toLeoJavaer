@@ -62,8 +62,10 @@ export default sidebar({
           prefix: "Basic/",
           children: [
             "",
-            "java-basic01" ,
-            "java-basic02" ,
+            "java-basic-env" ,
+            "java-basic-grammer" ,
+            "java-basic-array" ,
+            "java-basic-io" ,
           ],
         }
       ],
@@ -265,6 +267,7 @@ export default sidebar({
             "spring5-ioc",
             "spring5-aop",
             "Spring5-factory-senior",
+            "spring5-transaction-processing"
           ],
         },
         "ssm-integration-complete-process",
@@ -289,11 +292,11 @@ export default sidebar({
               collapsible: true,
               prefix: "basic-chapter/",
               children: [
-                "",
                 "redis7-getting-started-overview",
                 "redis7-installation-configuration",
                 "redis7-top-ten-data-types",
                 "redis7-persistence",
+                "redis7-transaction",
               ],
             },
             {
@@ -302,10 +305,18 @@ export default sidebar({
               collapsible: true,
               prefix: "basic-chapter/",
               children: [
-                "",
                 "redis7-getting-started-overview",
               ],
             },
+          ],
+        },
+        {
+          text: "Linux",
+          icon: "globe",
+          collapsible: true,
+          prefix: "Linux/",
+          children: [
+           "linux-note"
           ],
         },
       ],

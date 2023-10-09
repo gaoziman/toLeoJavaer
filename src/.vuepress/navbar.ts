@@ -18,8 +18,10 @@ export default navbar([
         icon: "database",
         prefix: "Basic/",
         children: [
-          "java-basic01" ,
-          "java-basic02" ,
+          "java-basic-env" ,
+          "java-basic-grammer" ,
+          "java-basic-array" ,
+          "java-basic-io" ,
         ],
       },
     ],
@@ -158,6 +160,14 @@ export default navbar([
           "redis7-installation-configuration",
           "redis7-top-ten-data-types",
           "redis7-persistence",
+        ],
+      },
+      {
+        text: "Linux",
+        icon: "globe",
+        prefix: "Linux/",
+        children: [
+          "linux-note"
         ],
       },
     ],
