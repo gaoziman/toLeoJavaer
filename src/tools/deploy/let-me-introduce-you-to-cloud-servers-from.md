@@ -3,9 +3,9 @@ title: 带你从0认识云服务器
 icon: circle-info
 order: 2
 category:
-    - 项目部署
+  - 项目部署▶️
 tag:
-    - 项目部署
+  - 项目部署▶️
 pageview: false
 date: 2023-09-23
 comment: false

@@ -3,9 +3,9 @@ title: 腾讯云服务器部署Hexo博客
 icon: circle-info
 order: 4
 category:
-  - 项目部署
+  - 项目部署▶️
 tag:
-  - 项目部署
+  - 项目部署▶️
 pageview: false
 date: 2023-09-06
 comment: false

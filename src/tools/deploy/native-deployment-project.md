@@ -3,9 +3,9 @@ title: 宝塔部署前后端分离项目
 icon: circle-info
 order: 3
 category:
-  - 项目部署
+  - 项目部署▶️
 tag:
-  - 项目部署
+  - 项目部署▶️
 pageview: false
 date: 2023-09-06
 comment: false
