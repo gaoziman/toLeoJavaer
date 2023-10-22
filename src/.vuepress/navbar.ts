@@ -97,6 +97,7 @@ export default navbar([
           "docker-deployment-project",
           "native-deployment-project",
           "tencent-cloud-server-deployment-hexo-blog",
+          "docker-deploy-springboot-project"
         ],
       },
       {
@@ -131,6 +132,15 @@ export default navbar([
         prefix: "MyBatis/",
         children: [
           "myBatisplus-one-pass",
+          {
+            text: "MyBatis源码",
+            icon: "tag",
+            prefix: "mybatis-source/",
+            children: [
+              "mybatis-source-start",
+              "mybatis-source-operation-object",
+            ],
+          },
         ],
       },
       {
@@ -141,6 +151,9 @@ export default navbar([
           "spring5-ioc",
           "spring5-aop",
           "Spring5-factory-senior",
+          "spring5-integration-mybatis",
+          "spring5-annotation-code01",
+          "spring5-annotation-code02",
         ],
       },
       "ssm-integration-complete-process",
@@ -167,7 +180,8 @@ export default navbar([
         icon: "globe",
         prefix: "Linux/",
         children: [
-          "linux-note"
+          "linux-note",
+          "vmvare-install-centos7"
         ],
       },
     ],
