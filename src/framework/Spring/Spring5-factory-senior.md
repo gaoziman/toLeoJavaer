@@ -1,5 +1,5 @@
 ---
-title: 工厂高级特性
+title: Spring工厂高级特性
 icon: circle-info
 order: 3
 category:

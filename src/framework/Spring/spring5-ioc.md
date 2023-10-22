@@ -1,5 +1,5 @@
 ---
-title: IOC编程
+title: SpringIOC编程
 icon: circle-info
 order: 1
 category:
