@@ -65,7 +65,12 @@ export default sidebar({
             "java-basic-env" ,
             "java-basic-grammer" ,
             "java-basic-array" ,
+            "java-basic-init-object",
             "java-basic-io" ,
+            "java-multithread-detail",
+            "java-network-code",
+            "java-stream-program",
+            "java8-new-features",
           ],
         }
       ],
@@ -206,6 +211,7 @@ export default sidebar({
             "system-reload-diary",
             "Typora+PicGo+Alibaba-Cloud-OSS-Build-Bed",
             "resolve-Win11-right-click-menu-issues",
+            "markdown-grammer",
           ],
         },
         {
@@ -231,6 +237,7 @@ export default sidebar({
             "redis-reported-an-error-in-Docker-for-online-issues",
             "record-idea-illegal-character-ufeff-and-report-an-error-once",
             "record-Docker-and-redis-conflict-once",
+            "Springboot3-integration-Mybatis-plus3.5.3-errors"
           ],
         },
       ],
@@ -256,7 +263,6 @@ export default sidebar({
           collapsible: true,
           prefix: "MyBatis/",
           children: [
-            "myBatisplus-one-pass",
             {
               text: "MyBatis源码",
               icon: "tag",
@@ -267,6 +273,7 @@ export default sidebar({
                 "mybatis-source-operation-object",
               ],
             },
+            "myBatisplus-one-pass",
           ],
         },
         {
@@ -282,6 +289,19 @@ export default sidebar({
             "spring5-integration-mybatis",
             "spring5-annotation-code01",
             "spring5-annotation-code02",
+            "spring5-jdk-proxy",
+            "spring5-cglib-proxy",
+          ],
+        },
+        {
+          text: "SpringSecurity",
+          icon: "star",
+          collapsible: true,
+          prefix: "SpringSecurity/",
+          children: [
+            'springsecurity6-init',
+            "helloworld-simple-code",
+            "springsecurity6-filter",
           ],
         },
         "ssm-integration-complete-process",
@@ -364,7 +384,20 @@ export default sidebar({
       icon: "sitemap",
       prefix: "distributed/",
       collapsible: true,
-      children: "structure",
+      // children: "structure",
+      children: [
+        {
+          text: "Netty应用专栏",
+          icon: "star",
+          collapsible: true,
+          prefix: "netty/",
+          children: [
+            "java-net-code",
+            "java-io-road",
+            "bio-in-detail",
+          ],
+        },
+      ],
     },
     {
       text: "项目",

@@ -81,9 +81,12 @@ title: ToLeoJavaer
 - [Spring5 IOC编程](./framework/Spring/Spring5-ioc.md)
 - [Spring5 AOP编程](./framework/Spring/Spring5-aop.md)
 - [Spring5 工厂高级特性](./framework/Spring/Spring5-factory-senior.md)
+- [Spring5 事务详解](./framework/Spring/spring5-transaction-processing.md)
 - [Spring5 整合MyBatis](./framework/Spring/spring5-integration-mybatis.md)
 - [Spring5 基础注解](./framework/Spring/spring5-annotation-code01.md)
 - [Spring5 高级注解](./framework/Spring/spring5-annotation-code02.md)
+- [Spring5 JDK动态代理](./framework/Spring/spring5-jdk-proxy.md)
+- [Spring5 CGlib动态代理](./framework/Spring/spring5-cglib-proxy.md)
 
 
 ## 源码系列
