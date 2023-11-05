@@ -1,11 +1,11 @@
 ---
-title: Java基础语法
+title: Java基础篇 基础语法
 icon: circle-info
 order: 2
 category:
-  - Java
+  - Java☕
 tag:
-  - Java
+  - Java☕
 pageview: false
 date: 2023-08-29
 comment: false

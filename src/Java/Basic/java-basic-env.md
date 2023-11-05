@@ -1,11 +1,11 @@
 ---
-title: Java开发环境的搭建
+title: Java基础篇 环境搭建
 icon: circle-info
 order: 1
 category:
-  - Java
+  - Java☕
 tag:
-  - Java
+  - Java☕
 pageview: false
 date: 2023-08-29
 comment: false
