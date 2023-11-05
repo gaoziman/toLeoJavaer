@@ -1,5 +1,5 @@
 ---
-title: Spring5整合MyBatis
+title: Spring整合MyBatis
 icon: circle-info
 order: 5
 tags:

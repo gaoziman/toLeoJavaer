@@ -3,9 +3,9 @@ title: Spring事务处理
 icon: circle-info
 order: 4
 category:
-  - Spring
+  - Spring🍃
 tag:
-  - Spring
+  - Spring🍃
 pageview: false
 date: 2023-08-29
 comment: false
@@ -541,163 +541,12 @@ public class XXXUserServiceImpl{
   >
   > 查询   操作：显示指定传播属性的值为SUPPORTS  
 
-#### 3. 只读属性(readOnly)
-
-针对于只进行查询操作的业务方法，可以加入只读属性，提供运行效率
-
-默认值：false
 
 
 
-#### 4. 超时属性(timeout)
-
-> 指定了事务等待的最长时间
->
-> 1. 为什么事务进行等待？
-> 2. 当前事务访问数据时，有可能访问的数据被别的事务进行加锁的处理，那么此时本事务就必须进行等待。
-> 3. 等待时间 秒
-> 4. 如何应用 @Transactional(timeout=2)
-> 5. 超时属性的默认值 -1 最终由对应的数据库来指定
 
 
 
-#### 5. 异常属性
-
-> Spring事务处理过程中
->
-> 默认 对于RuntimeException及其子类 采用的是回滚的策略
->
-> 默认 对于Exception及其子类 采用的是提交的策略
->
-> rollbackFor = {java.lang.Exception,xxx,xxx} 
->
-> noRollbackFor = {java.lang.RuntimeException,xxx,xx}
->
-> @Transactional(rollbackFor = {java.lang.Exception.class},noRollbackFor = {java.lang.RuntimeException.class})
->
-> 建议：实战中使用RuntimeExceptin及其子类 使用事务异常属性的默认值
-
-
-
-### 5.4 事务属性常见配置总结
-
-> 1. 隔离属性   默认值 
-> 2. 传播属性   Required(默认值) 增删改   Supports 查询操作
-> 3. 只读属性   readOnly false  增删改   true 查询操作
-> 4. 超时属性   默认值 -1
-> 5. 异常属性   默认值 
->
-> 增删改操作   @Transactional
->
-> 查询操作     @Transactional(propagation=Propagation.SUPPORTS,readOnly=true)
-
-
-
-### 5.5 基于标签的事务配置方式(事务开发的第二种形式)
-
-- 基于注解 @Transaction的事务配置回顾
-
-  ```xml
-  <bean id="userService" class="com.baizhiedu.service.UserServiceImpl">
-    <property name="userDAO" ref="userDAO"/>
-  </bean>
-  
-  <!--DataSourceTransactionManager-->
-  <bean id="dataSourceTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-    <property name="dataSource" ref="dataSource"/>
-  </bean>
-  
-  @Transactional(isolation=,propagation=,...)
-  public class UserServiceImpl implements UserService {
-      private UserDAO userDAO;
-  
-  <tx:annotation-driven transaction-manager="dataSourceTransactionManager"/>
-  ```
-
-- 基于标签的事务配置：
-
-  ```xml
-  <bean id="userService" class="com.baizhiedu.service.UserServiceImpl">
-    <property name="userDAO" ref="userDAO"/>
-  </bean>
-  
-  <!--DataSourceTransactionManager-->
-  <bean id="dataSourceTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-    <property name="dataSource" ref="dataSource"/>
-  </bean>
-  
-  ```
-
-  ```xml
-  <!-- 事务属性 -->
-  <tx:advice id="txAdvice" transacation-manager="dataSourceTransactionManager">
-      <tx:attributes>
-            <tx:method name="register" isoloation="",propagation=""></tx:method>
-            <tx:method name="login" .....></tx:method>
-            等效于 
-            @Transactional(isolation=,propagation=,)
-            public void register(){
-          
-            }
-        
-      </tx:attributes>
-  </tx:advice>
-  
-  <aop:config>
-       <aop:pointcut id="pc" expression="execution(* com.baizhiedu.service.UserServiceImpl.register(..))"></aop:pointcut>
-       <aop:advisor advice-ref="txAdvice" pointcut-ref="pc"></aop:advisor>
-  </aop:config>
-  ```
-
-  
-
-
-
-- 基于标签的事务配置在实战中的应用方式
-
-  ```xml
-  <bean id="userService" class="com.baizhiedu.service.UserServiceImpl">
-    <property name="userDAO" ref="userDAO"/>
-  </bean>
-  
-  <!--DataSourceTransactionManager-->
-  <bean id="dataSourceTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-    <property name="dataSource" ref="dataSource"/>
-  </bean>
-  
-  ```
-  
-  ```xml
-  <!-->编程时候 service中负责进行增删改操作的方法 都以modify开头
-                         查询操作 命名无所谓 -->
-  <tx:advice id="txAdvice" transacation-manager="dataSourceTransactionManager">
-      <tx:attributes>
-            <tx:method name="register"></tx:method>
-            <tx:method name="modify*"></tx:method>
-            <tx:method name="*" propagation="SUPPORTS"  read-only="true"></tx:method>
-      </tx:attributes>
-  </tx:advice>
-  
-  <!--应用的过程中，service放置到service包中-->
-  <aop:config>
-       <aop:pointcut id="pc" expression="execution(* com.baizhiedu.service..*.*(..))"></aop:pointcut>
-       <aop:advisor advice-ref="txAdvice" pointcut-ref="pc"></aop:advisor>
-  </aop:config>
-     <!-- 查询操作 命名无所谓 -->          
-  <tx:advice id="txAdvice" transacation-manager="dataSourceTransactionManager">
-      <tx:attributes>
-            <tx:method name="register"></tx:method>
-            <tx:method name="modify*"></tx:method>
-            <tx:method name="*" propagation="SUPPORTS"  read-only="true"></tx:method>
-      </tx:attributes>
-  </tx:advice>
-  
-  <!--应用的过程中，service放置到service包中-->
-  <aop:config>
-       <aop:pointcut id="pc" expression="execution(* com.baizhiedu.service..*.*(..))"></aop:pointcut>
-       <aop:advisor advice-ref="txAdvice" pointcut-ref="pc"></aop:advisor>
-  </aop:config>
-  ```
   
   
 

@@ -3,9 +3,9 @@ title: SpringAOP编程
 icon: circle-info
 order: 2
 category:
-  - Spring
+  - Spring🍃
 tag:
-  - Spring
+  - Spring🍃
 pageview: false
 date: 2023-08-29
 comment: false
