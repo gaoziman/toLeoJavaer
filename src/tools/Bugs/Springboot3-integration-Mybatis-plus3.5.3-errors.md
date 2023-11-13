@@ -1,5 +1,5 @@
 ---
-title: Springboot整合Mybatis-plus报错
+title: Springboot整合MP报错
 icon: circle-info
 order: 5
 category:
