@@ -256,3 +256,6 @@ ps -ef  ps aux
 ## 5. 内容小结
 
 **今天的内容就到这里了，相信今天大家一定对云服务器有了一些新的认识，喜欢实操的小伙伴赶紧行动起来吧，别让你的服务器在电脑里吃灰啦😛😛😛**
+
+
+![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)

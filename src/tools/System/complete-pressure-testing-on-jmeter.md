@@ -127,3 +127,7 @@ Check : https://jmeter.apache.org/usermanual/best-practices.html
 [使用Jmeter查看聚合报告(opens new window)](https://blog.csdn.net/weixin_45412176/article/details/106790525)
 
 [一文搞定Jmeter发送Get与Post请求(HTTP)](https://blog.csdn.net/lht3347/article/details/110186172)
+
+
+
+![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)

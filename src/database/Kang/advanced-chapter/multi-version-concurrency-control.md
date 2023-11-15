@@ -378,3 +378,6 @@ insert into student(id,name) values(3,'王五');
 通过MVCC我们可以解决：
 
 <img src="https://gaoziman.oss-cn-hangzhou.aliyuncs.com/img/image-20220715141515370.png" alt="image-20220715141515370" style="float:left;" />
+
+
+![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)

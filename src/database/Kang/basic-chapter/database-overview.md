@@ -340,3 +340,5 @@ ORM思想 (Object Relational Mapping)体现：
 #### 5.3.4 自我引用(Self reference)
 
 ![image-20210914235651997](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/img/image-20210914235651997.png)
+
+![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)

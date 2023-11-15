@@ -212,3 +212,6 @@ hexo deploy
 ![image-20230711190024284](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/img/202307121008486.png)
 
 `域名备案之后，可以直接绑定域名`
+
+
+![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)

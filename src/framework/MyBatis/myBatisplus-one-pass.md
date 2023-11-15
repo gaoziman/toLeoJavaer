@@ -1143,3 +1143,5 @@ public class MybatisPlusConfig {
 参考资料：
 
 [MP官网](https://baomidou.com/)
+
+![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)

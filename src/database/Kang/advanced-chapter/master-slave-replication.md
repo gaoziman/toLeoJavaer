@@ -527,3 +527,5 @@ MGR 将 MySQL 带入了数据强一致性的时代，是一个划时代的创新
 * 主动切换 
 * 被动切换
 * 如何判断主库出问题了？如何解决过程中的数据不一致性问题 ?
+
+![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)

@@ -1263,3 +1263,5 @@ public class HomeWork01 {
 - https://developer.aliyun.com/article/1137886
 - https://pdai.tech/md/algorithm/alg-sort-x-bubble.html#%E6%8E%92%E5%BA%8F-%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F-bubble-sort
 - https://oi-wiki.org/basic/sort-intro/
+
+![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)

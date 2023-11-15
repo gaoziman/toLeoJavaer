@@ -23,19 +23,17 @@ export default sidebar({
       ],
     },
     {
-      text: "每天重要知识点",
-      icon: "bell",
-      prefix: "knowledge-point-per-day/",
+      text: "Leo知识块",
+      icon: "book-reader",
+      prefix: "knowledge-block/",
       collapsible: true,
       // children: "structure",
       children: [
         {
           text: "重要知识点",
           icon: "star",
-          collapsible: true,
           prefix: "star/",
           children: [
-            "",
             "what-is-csrf",
             "what-is-jwt",
             "the-difference-between-string-stringBuffer-and-stringBuilder",
@@ -44,32 +42,66 @@ export default sidebar({
             "static-proxy-and-dynamic-proxy",
             "static-keyword-function-and-usage",
             "java-generics-mechanism",
+            "jwt-token-cookie-session-distinction",
           ],
         },
       ],
     },
     {
       text: "Java",
-      icon: "coffee",
+      icon: "mug-hot",
       prefix: "Java/",
       collapsible: true,
-      // children: "structure",
       children: [
         {
-          text: "Java基础",
-          icon: "paw",
-          collapsible: true,
+          text: "基础",
+          icon: "laptop-code",
           prefix: "Basic/",
           children: [
-            "",
             "java-basic-env" ,
             "java-basic-grammer" ,
             "java-basic-array" ,
             "java-basic-init-object",
             "java-basic-io" ,
             "java-multithread-detail",
+            "java-thread-pool",
             "java-network-code",
             "java-stream-program",
+            {
+              text: "重要知识点",
+              icon: "star",
+              collapsible: true,
+              children: [
+              ],
+            },
+          ],
+        },
+        {
+          text: "集合",
+          icon: "drumstick-bite",
+          prefix: "Basic/",
+          children: [
+          ],
+        },
+        {
+          text: "IO",
+          icon: "download",
+          prefix: "Basic/",
+          children: [
+          ],
+        },
+        {
+          text: "JVM",
+          icon: "satellite-dish",
+          prefix: "Basic/",
+          children: [
+          ],
+        },
+        {
+          text: "新特性",
+          icon: "code-branch",
+          prefix: "new/",
+          children: [
             "java8-new-features",
           ],
         }
@@ -80,15 +112,12 @@ export default sidebar({
       icon: "database",
       prefix: "database/",
       collapsible: true,
-      // children: "structure",
       children: [
         {
           text: "基础",
           icon: "fill",
-          collapsible: true,
           prefix: "Basic/",
           children: [
-            "",
             "install-mysql8-green-version",
             "database-Principles-and-Applications",
           ],
@@ -96,16 +125,14 @@ export default sidebar({
         {
           text: "高级",
           icon: "fill-drip",
-          collapsible: true,
           prefix: "Advanced/",
           children: [
-            "",
             "reasons-for-slow-mysql-queries",
           ],
         },
         {
-          text: "康师傅",
-          icon: "headphones",
+          text: "MySQL8合集",
+          icon: "fish",
           collapsible: true,
           prefix: "Kang/",
           children: [
@@ -115,7 +142,6 @@ export default sidebar({
               collapsible: true,
               prefix: "basic-chapter/",
               children: [
-                "",
                 "database-overview",
                 "mysql-environment-setup",
                 "basic-select-statement",
@@ -141,7 +167,6 @@ export default sidebar({
               collapsible: true,
               prefix: "advanced-chapter/",
               children: [
-                "",
                 "install-and-use-mysql-in-linux",
                 "mysql-data-directory",
                 "user-and-permission-management",
@@ -172,12 +197,10 @@ export default sidebar({
       icon: "computer",
       prefix: "computer/",
       collapsible: true,
-      // children: "structure",
       children:[
         {
           text: "计算机组成原理",
           icon: "laptop",
-          collapsible: true,
           // icon: "tachometer-alt",
           prefix: "computer-composition-principle/",
           children: [
@@ -192,17 +215,12 @@ export default sidebar({
       icon: "wrench",
       prefix: "tools/",
       collapsible: true,
-      // children: "structure",
       children: [
         {
           text: "程序日常",
           icon: "laptop",
-          collapsible: true,
           prefix: "System/",
           children: [
-            "Git-Tutorial01",
-            "Git-Tutorial02",
-            "Git-Tutorial03",
             "detailed-maven-installation-and-configuration",
             "complete-pressure-testing-on-jmeter",
             "IDEA-daily-configuration",
@@ -217,7 +235,6 @@ export default sidebar({
         {
           text: "项目部署",
           icon: "plug",
-          collapsible: true,
           prefix: "deploy/",
           children: [
             "let-me-introduce-you-to-cloud-servers-from",
@@ -229,8 +246,7 @@ export default sidebar({
         },
         {
           text: "报错以及Bug",
-          icon: "exclamation-triangle",
-          collapsible: true,
+          icon: "bug",
           prefix: "Bugs/",
           children: [
             "java-connection-sqlServer-error",
@@ -263,9 +279,10 @@ export default sidebar({
           collapsible: true,
           prefix: "MyBatis/",
           children: [
+            "myBatisplus-one-pass",
             {
-              text: "MyBatis源码",
-              icon: "tag",
+              text: "源码",
+              icon: "star",
               collapsible: true,
               prefix: "mybatis-source/",
               children: [
@@ -273,7 +290,6 @@ export default sidebar({
                 "mybatis-source-operation-object",
               ],
             },
-            "myBatisplus-one-pass",
           ],
         },
         {
@@ -295,16 +311,27 @@ export default sidebar({
         },
         {
           text: "SpringSecurity",
-          icon: "star",
+          icon: "shield-alt",
           collapsible: true,
           prefix: "SpringSecurity/",
           children: [
             'springsecurity6-init',
             "helloworld-simple-code",
             "springsecurity6-filter",
+            "delegate-filter-agents-delegateFilter",
+            "core-filters",
           ],
         },
-        "ssm-integration-complete-process",
+        {
+          text: "整合",
+          icon: "cloud",
+          collapsible: true,
+          prefix: "Integrate/",
+          children: [
+            "ssm-integration-complete-process",
+          ],
+        },
+
       ],
     },
     {
@@ -317,12 +344,11 @@ export default sidebar({
         {
           text: "Redis",
           icon: "glass-whiskey",
-          collapsible: true,
           prefix: "Redis/",
           children: [
             {
-              text: "基础篇",
-              icon: "tag",
+              text: "基础",
+              icon: "location-arrow",
               collapsible: true,
               prefix: "basic-chapter/",
               children: [
@@ -334,8 +360,8 @@ export default sidebar({
               ],
             },
             {
-              text: "高级篇",
-              icon: "tags",
+              text: "重要知识点",
+              icon: "star",
               collapsible: true,
               prefix: "basic-chapter/",
               children: [
@@ -347,7 +373,6 @@ export default sidebar({
         {
           text: "Linux",
           icon: "globe",
-          collapsible: true,
           prefix: "Linux/",
           children: [
            "linux-note",
@@ -361,15 +386,13 @@ export default sidebar({
       icon: "leaf",
       prefix: "service/",
       collapsible: true,
-      // children: "structure",
       children: [
         {
-          text: "重要知识点",
-          icon: "star",
+          text: "基础",
+          icon: "location-arrow",
           collapsible: true,
           prefix: "star/",
           children: [
-            "",
             "understanding-springcloud-microservices",
             "understanding-core-components-springcloud",
             "ribbon-and-Nacos-Service-registry",
@@ -384,12 +407,11 @@ export default sidebar({
       icon: "sitemap",
       prefix: "distributed/",
       collapsible: true,
-      // children: "structure",
       children: [
         {
           text: "Netty应用专栏",
-          icon: "star",
-          collapsible: true,
+          icon: "location-arrow",
+          // collapsible: true,
           prefix: "netty/",
           children: [
             "java-net-code",
@@ -409,8 +431,8 @@ export default sidebar({
     {
       text: "前端技术",
       icon: "palette",
-      prefix: "front/",
       collapsible: true,
+      prefix: "front/",
       children: "structure",
     },
     // "slides",

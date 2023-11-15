@@ -60,8 +60,12 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/database/Kang/": ["123456"],
+      "/database/Kang/": ["019b"],
     },
+  },
+  encryptLocales:{
+    iconLabel: '文章已加密',
+    placeholder: '关注公众号【程序员Leo】, 回复：MySQL'
   },
 
   // hotReload: true,

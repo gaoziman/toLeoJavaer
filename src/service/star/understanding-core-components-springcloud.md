@@ -1294,3 +1294,4 @@ eureka:
 
 今天就到这里了，下一节我们继续学习分享SpringCloud的相关组件，欢迎大家评论区留言讨论！
 
+![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)

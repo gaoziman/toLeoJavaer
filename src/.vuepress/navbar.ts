@@ -4,33 +4,28 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   // {
-  //   text: "面试准备",
-  //   icon: "book",
-  //   link: "#",
+  //   text: "Java",
+  //   icon: "coffee",
+  //   prefix: "/Java/",
+  //   children: [
+  //     {
+  //       text: "基础",
+  //       icon: "database",
+  //       prefix: "Basic/",
+  //       children: [
+  //         "java-basic-env" ,
+  //         "java-basic-grammer" ,
+  //         "java-basic-array" ,
+  //         "java-basic-init-object",
+  //         "java-basic-io" ,
+  //         "java-multithread-detail",
+  //         "java-network-code",
+  //         "java-stream-program",
+  //         "java8-new-features",
+  //       ],
+  //     },
+  //   ],
   // },
-  {
-    text: "Java",
-    icon: "coffee",
-    prefix: "/Java/",
-    children: [
-      {
-        text: "基础",
-        icon: "database",
-        prefix: "Basic/",
-        children: [
-          "java-basic-env" ,
-          "java-basic-grammer" ,
-          "java-basic-array" ,
-          "java-basic-init-object",
-          "java-basic-io" ,
-          "java-multithread-detail",
-          "java-network-code",
-          "java-stream-program",
-          "java8-new-features",
-        ],
-      },
-    ],
-  },
   {
     text: "数据库",
     icon: "database",

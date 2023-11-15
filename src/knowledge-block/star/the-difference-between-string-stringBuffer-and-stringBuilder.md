@@ -55,3 +55,7 @@ breadcrumb: false
 
 > 运行速度快慢顺序为：StringBuilder > StringBuffer > String
 
+
+
+
+![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)

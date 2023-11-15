@@ -73,3 +73,8 @@ breadcrumb: false
 ### 3.4 Anti CSRF Token
 
 > CSRF 攻击之所以能够成功，主要是因为黑客能够完全伪造用户的请求，在这次请求中，用户的信息是存在 cookie 中的，所以黑客可以在不知道这些验证信息的情况下直接利用用户的 cookie 去跳过安全认证，我们要防御 CSRF 关键在于请求放入的时候黑客不能去伪造信息，并且这个信息不存在 cookie 之中，所以我们就可以在通过 http 的请求中或者是头信息中加入一个随机产生的 token，这个 token 就会存在服务端，通过拦截器去验证这个 token，如果请求头中不存在 token 或者 token 不正确，拦截器就会认为这是一次 CSRF 攻击，拒绝此次请求。
+
+
+
+
+![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)

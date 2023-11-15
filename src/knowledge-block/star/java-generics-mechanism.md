@@ -385,3 +385,5 @@ T t = operate();
 ## 4. 总结
 
 本文零碎整理了下 JAVA 泛型中的一些点，不是很全，仅供参考。如果文中有不当的地方，欢迎指正。
+
+![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)

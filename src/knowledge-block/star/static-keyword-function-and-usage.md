@@ -390,3 +390,6 @@ public class Test6 {
 
 <font size= 6 ><span style="color:red">**从上述结果可见，实例对象可以访问访问类变量。**</span></font>
 
+
+
+![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)

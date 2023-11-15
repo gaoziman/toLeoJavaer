@@ -1176,3 +1176,6 @@ MySQL的空间数据类型（Spatial Data Type）对应于OpenGIS类，包括单
 - 【`强制`】如果存储的字符串长度几乎相等，使用 CHAR 定长字符串类型。
 - 【`强制`】VARCHAR 是可变长字符串，不预先分配存储空间，长度不要超过 5000。如果存储长度大于此值，定义字段类型为 TEXT，独立出来一张表，用主键来对应，避免影响其它字段索引效率。
 
+
+
+![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)

@@ -2082,3 +2082,6 @@ public class DirectoryInformation {
 
 今天的知识分享就先到这里，关于IO流对于初学者还是有一些绕，还需大家多加练习，**实践出真知**。大家有什么其他问题，欢迎评论区讨论。
 
+
+
+![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)

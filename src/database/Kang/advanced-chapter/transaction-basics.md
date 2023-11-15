@@ -682,3 +682,7 @@ INSERT INTO account VALUES (1,'张三','100'), (2,'李四','0');
 * 链事务（Chained Transactions） 
 * 嵌套事务（Nested Transactions） 
 * 分布式事务（Distributed Transactions）
+
+
+
+![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)

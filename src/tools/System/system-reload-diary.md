@@ -127,3 +127,7 @@ winget install dail8859.NotepadNext
 写前端的对Webstrom肯定熟悉，但就是太笨重了点，这款更轻量的前端编辑工具以及具有大量插件的Vscode一定适合你。
 
 ![image-20230519153121513](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/img/image-20230519153121513.png)
+
+
+
+![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)
