@@ -26,7 +26,6 @@ breadcrumb: false
 **个人博客：**   https://antirez.com/latest/0
 
 
-
 ### 1.1 主流功能与应用
 
 
@@ -141,7 +140,7 @@ Redis命令参考：http://doc.redisfans.com/
 5.0版本是直接升级到6.0版本，对于这个激进的升级，Redis之父antirez表现得很有信心和兴奋，所以第一时间发文来阐述6.0的一些重大功能"Redis 6.0.0 GA is out!":
 ```
 
-$\textcolor{red}{随后Redis再接再厉，直接王炸Redis7.0---2023年爆款}$
+随后Redis再接再厉，直接王炸Redis7.0---2023年爆款
 
 ```markdown
 2022年4月27日Redis正式发布了7.0更新
