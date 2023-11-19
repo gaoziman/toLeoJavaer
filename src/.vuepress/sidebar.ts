@@ -120,6 +120,7 @@ export default sidebar({
           children: [
             "install-mysql8-green-version",
             "database-Principles-and-Applications",
+            "mysql5.7-mysql8-contrastive-analysis",
           ],
         },
         {
@@ -320,6 +321,9 @@ export default sidebar({
             "springsecurity6-filter",
             "delegate-filter-agents-delegateFilter",
             "core-filters",
+            "automatic-configuration01",
+            "automatic-configuration02",
+            "default-login-page",
           ],
         },
         {
@@ -417,6 +421,7 @@ export default sidebar({
             "java-net-code",
             "java-io-road",
             "bio-in-detail",
+            "nio-in-detail",
           ],
         },
       ],
