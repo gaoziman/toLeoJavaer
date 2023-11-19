@@ -38,6 +38,7 @@ export default navbar([
         children: [
           "install-mysql8-green-version",
           "database-Principles-and-Applications",
+          "mysql5.7-mysql8-contrastive-analysis",
         ],
       },
       {
@@ -75,9 +76,6 @@ export default navbar([
         icon: "laptop",
         prefix: "System/",
         children: [
-          "Git-Tutorial01",
-          "Git-Tutorial02",
-          "Git-Tutorial03",
           "detailed-maven-installation-and-configuration",
           "complete-pressure-testing-on-jmeter",
           "IDEA-daily-configuration",
@@ -169,6 +167,11 @@ export default navbar([
           'springsecurity6-init',
           "helloworld-simple-code",
           "springsecurity6-filter",
+          "delegate-filter-agents-delegateFilter",
+          "core-filters",
+          "automatic-configuration01",
+          "automatic-configuration02",
+          "default-login-page",
         ],
       },
       "ssm-integration-complete-process",
