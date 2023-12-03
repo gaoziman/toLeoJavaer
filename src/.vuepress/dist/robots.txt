@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://toleojavaer.netlify.app/sitemap.xml
