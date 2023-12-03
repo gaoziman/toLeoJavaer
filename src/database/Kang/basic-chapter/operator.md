@@ -352,7 +352,7 @@ WHERE  last_name LIKE '_o%';
 
 **ESCAPE**
 
-- 回避特殊符号的：**使用转义符**。例如：将[%]转为[$%]、[]转为[$]，然后再加上[ESCAPE‘$’]即可。
+- 回避特殊符号的：**使用转义符**。例如：将[%]转为[4%]、[]转为[4]，然后再加上[ESCAPE‘4’]即可。
 
 ```mysql
 SELECT job_id
@@ -366,7 +366,7 @@ WHERE  job_id LIKE ‘IT\_%‘;
 ```mysql
 SELECT job_id
 FROM   jobs
-WHERE  job_id LIKE ‘IT$_%‘ escape ‘$‘;
+WHERE  job_id LIKE ‘IT4_%‘ escape ‘4‘;
 ```
 
 **12. REGEXP运算符**
@@ -377,7 +377,7 @@ REGEXP运算符在进行匹配时，常用的有下面几种通配符：
 
 ```
 （1）‘^’匹配以该字符后面的字符开头的字符串。
-（2）‘$’匹配以该字符前面的字符结尾的字符串。
+（2）‘4’匹配以该字符前面的字符结尾的字符串。
 （3）‘.’匹配任何一个单字符。
 （4）“[...]”匹配在方括号内的任何字符。例如，“[abc]”匹配“a”或“b”或“c”。为了命名字符的范围，使用一个‘-’。“[a-z]”匹配任何字母，而“[0-9]”匹配任何数字。
 （5）‘*’匹配零个或多个在它前面的字符。例如，“x*”匹配任何数量的‘x’字符，“[0-9]*”匹配任何数量的数字，而“*”匹配任何数量的任何字符。
@@ -386,9 +386,9 @@ REGEXP运算符在进行匹配时，常用的有下面几种通配符：
 SQL语句示例如下：
 
 ```mysql
-mysql> SELECT 'shkstart' REGEXP '^s', 'shkstart' REGEXP 't$', 'shkstart' REGEXP 'hk';
+mysql> SELECT 'shkstart' REGEXP '^s', 'shkstart' REGEXP 't4', 'shkstart' REGEXP 'hk';
 +------------------------+------------------------+-------------------------+
-| 'shkstart' REGEXP '^s' | 'shkstart' REGEXP 't$' | 'shkstart' REGEXP 'hk'  |
+| 'shkstart' REGEXP '^s' | 'shkstart' REGEXP 't4' | 'shkstart' REGEXP 'hk'  |
 +------------------------+------------------------+-------------------------+
 |                      1 |                      1 |                       1 |
 +------------------------+------------------------+-------------------------+
@@ -647,12 +647,12 @@ mysql> SELECT * FROM fruits WHERE f_name REGEXP '^b';
 ```
 
 **2. 查询以特定字符或字符串结尾的记录**
-字符‘$’匹配以特定字符或者字符串结尾的文本。
+字符‘4’匹配以特定字符或者字符串结尾的文本。
 
 在fruits表中，查询f_name字段以字母‘y’结尾的记录，SQL语句如下：
 
 ```mysql
-mysql> SELECT * FROM fruits WHERE f_name REGEXP 'y$';
+mysql> SELECT * FROM fruits WHERE f_name REGEXP 'y4';
 ```
 
 **3. 用符号"."来替代字符串中的任意一个字符**
