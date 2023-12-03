@@ -59,4 +59,4 @@ Tips:首先 `Win + R` 打开运行窗口，输入 `msconfig`
 ![image-20230803195441046](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/cisyam/202308031954100.png)
 
 
-![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)
+![公众号封面](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202312031906036.png)

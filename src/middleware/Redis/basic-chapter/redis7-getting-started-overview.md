@@ -234,4 +234,4 @@ listpack是用来替代ziplist的新数据结构，在7.0版本已经没有zipli
 
 
 
-![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)
+![公众号封面](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202312031906036.png)

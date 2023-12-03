@@ -23,7 +23,7 @@ export default sidebar({
       ],
     },
     {
-      text: "Leo知识块",
+      text: "死磕面试",
       icon: "book-reader",
       prefix: "knowledge-block/",
       collapsible: true,
@@ -43,6 +43,11 @@ export default sidebar({
             "static-keyword-function-and-usage",
             "java-generics-mechanism",
             "jwt-token-cookie-session-distinction",
+            "common-annotations-for-springboot",
+            "jwt-diffent-token",
+            "how-to-understand-string",
+            "deeply-understand-jsonand-application-in-java",
+            "clarify-whether-java-value-passing-or-reference-passing",
           ],
         },
       ],
@@ -254,7 +259,9 @@ export default sidebar({
             "redis-reported-an-error-in-Docker-for-online-issues",
             "record-idea-illegal-character-ufeff-and-report-an-error-once",
             "record-Docker-and-redis-conflict-once",
-            "Springboot3-integration-Mybatis-plus3.5.3-errors"
+            "Springboot3-integration-Mybatis-plus3.5.3-errors",
+            "record-yamlException-exception-once",
+            "record-exception-of-inconsistent-parameter-transmission-methods",
           ],
         },
       ],
@@ -381,6 +388,19 @@ export default sidebar({
           children: [
            "linux-note",
            "vmvare-install-centos7"
+          ],
+        },
+        {
+          text: "Docker",
+          icon: "anchor",
+          prefix: "Docker/",
+          children: [
+            "docker-install",
+            "docker-common-commod",
+            "docker-deploy-mysql",
+            "docker-deploy-nginx",
+            "custom-docker-images",
+            "container-data-volume",
           ],
         },
       ],

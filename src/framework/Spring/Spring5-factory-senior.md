@@ -462,4 +462,4 @@ public class MyBeanPostProcessor implements BeanPostProcessor {
 
 BeanPostProcessor会对Spring工厂中所有创建的对象进行加工。
 
-![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)
+![公众号封面](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202312031906036.png)

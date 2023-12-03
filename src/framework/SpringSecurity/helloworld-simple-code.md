@@ -296,4 +296,4 @@ public void setPassword(String password) {
 如果你想了解更多关于**Leo**，可以关注公众号-程序员Leo，后面文章会首先同步至公众号。
 
 
-![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)
+![公众号封面](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311301345907.png)

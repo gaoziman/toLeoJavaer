@@ -514,4 +514,4 @@ undo log是逻辑日志，对事务回滚时，只是将数据库逻辑地恢复
 
 redo log是物理日志，记录的是数据页的物理变化，undo log不是redo log的逆过程。
 
-![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)
+![公众号封面](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202312031906036.png)

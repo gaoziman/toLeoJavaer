@@ -1055,4 +1055,4 @@ mysql –h host2 –uroot –p
 
 但如果是恶意地把整个集群删除，那就需要考虑跨机房备份，跨城市备份。
 
-![ToLeoJavaer公众号 (微信搜索程序员Leo)](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202311152019893.png)
+![公众号封面](https://gaoziman.oss-cn-hangzhou.aliyuncs.com/LeoPic202312031906036.png)
