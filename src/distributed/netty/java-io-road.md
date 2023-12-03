@@ -2,9 +2,9 @@
 title: Netty实战专栏 IO演进之路
 icon: circle-info
 order: 2
-tags:
+tag:
   - Netty
-categories:
+category:
   - Netty
 pageview: false
 date: 2023-11-5 22:49:30

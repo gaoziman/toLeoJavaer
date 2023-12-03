@@ -2,9 +2,9 @@
 title: MyBatis源码初始
 icon: circle-info
 order: 1
-tags:
+tag:
    - MyBatis🐦️
-categories:
+category:
    - MyBatis🐦️
 pageview: false
 date: 2023-10-22 16:48:30

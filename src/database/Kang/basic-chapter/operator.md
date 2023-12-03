@@ -725,7 +725,7 @@ mysql> SELECT * FROM fruits WHERE s_id REGEXP '[456]';
 ```mysql
 mysql> SELECT * FROM fruits WHERE f_id REGEXP '[^a-e1-2]';
 ```
-
+  
 **8. 使用{n,}或者{n,m}来指定字符串连续出现的次数**
 “字符串{n,}”表示至少匹配n次前面的字符；“字符串{n,m}”表示匹配前面的字符串不少于n次，不多于m次。例如，a{2,}表示字母a连续出现至少2次，也可以大于2次；a{2,4}表示字母a连续出现最少2次，最多不能超过4次。
 

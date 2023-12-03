@@ -1,9 +1,9 @@
 ---
 title: Java8新特性
-tags:
+tag:
   - Java☕
   - Java知识点🔍
-categories:
+category:
   - Java☕
 cover: https://gaoziman.oss-cn-hangzhou.aliyuncs.com/template/Java%E9%AB%98%E6%89%8B.jpg
 mathjax: true

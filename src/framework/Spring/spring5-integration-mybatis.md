@@ -2,9 +2,9 @@
 title: Spring整合MyBatis
 icon: circle-info
 order: 5
-tags:
+tag:
    - Spring🍃
-categories:
+category:
    - Spring专栏🍃
 pageview: false
 date: 2023-10-22 16:51:56

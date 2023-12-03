@@ -2,9 +2,9 @@
 title: MyBatis操作类型对象
 icon: circle-info
 order: 2
-tags:
+tag:
   - MyBatis🐦️
-categories:
+category:
   - MyBatis🐦️
 pageview: false
 date: 2023-10-22 16:48:30

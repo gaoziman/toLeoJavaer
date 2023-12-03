@@ -2,9 +2,9 @@
 title: Docker部署MySQL
 icon: circle-info
 order: 3
-tags:
+tag:
 - "Docker🛥️"
-categories:
+category:
 - "Docker🛥️"
 pageview: false
 date: 2023-12-03 19:25:25

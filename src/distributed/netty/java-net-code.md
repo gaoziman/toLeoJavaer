@@ -2,9 +2,9 @@
 title: Netty实战专栏 网络编程解析
 icon: circle-info
 order: 1
-tags:
+tag:
   - Netty
-categories:
+category:
   - Netty
 pageview: false
 date: 2023-11-5 22:48:30

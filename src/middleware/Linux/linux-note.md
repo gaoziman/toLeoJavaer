@@ -2,9 +2,9 @@
 title: Linux自用笔记    
 icon: circle-info
 order: 1
-tags:
+tag:
   - "Linux\U0001F964"
-categories:
+category:
   - "Linux\U0001F964"
 pageview: false
 date: 2023-10-09 15:46:30

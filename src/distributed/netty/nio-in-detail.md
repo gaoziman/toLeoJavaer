@@ -2,9 +2,9 @@
 title: Netty实战专栏 NIO详解
 icon: circle-info
 order: 3
-tags:
+tag:
   - Netty
-categories:
+category:
   - Netty
 pageview: false
 date: 2023-11-19 23:50:30

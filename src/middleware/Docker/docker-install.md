@@ -2,9 +2,9 @@
 title: Docker入门安装
 icon: circle-info
 order: 1
-tags:
+tag:
 - "Docker🛥️"
-categories:
+category:
 - "Docker🛥️"
 pageview: false
 date: 2023-12-03 19:25:35

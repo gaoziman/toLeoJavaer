@@ -2,9 +2,9 @@
 title: Spring高级注解
 icon: circle-info
 order: 7
-tags:
+tag:
   - Spring🍃
-categories:
+category:
   - Spring专栏🍃
 pageview: false
 date: 2023-10-22 16:51:56

@@ -2,9 +2,9 @@
 title: Netty实战专栏 BIO详解
 icon: circle-info
 order: 3
-tags:
+tag:
   - Netty
-categories:
+category:
   - Netty
 pageview: false
 date: 2023-11-5 22:50:30
