@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://manamn.space/toLeoJavaer/sitemap.xml
